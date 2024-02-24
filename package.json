@@ -1,0 +1,63 @@
+{
+  "name": "markdown-email",
+  "version": "1.0.0",
+  "description": "An easy button for creating HTML emails from Markdown",
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "markdown",
+    "email",
+    "html",
+    "css",
+    "inline",
+    "juice",
+    "ejs",
+    "postcss",
+    "svgo",
+    "htmlnano",
+    "cssnano",
+    "terser",
+    "minify",
+    "compress",
+    "optimize",
+    "outlook",
+    "gmail",
+    "yahoo",
+    "nodemailer"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc -p . --watch"
+  },
+  "author": "Joe Skeen",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^6.0.4",
+    "ejs": "^3.1.9",
+    "htmlnano": "^2.1.0",
+    "jsdom": "^24.0.0",
+    "juice": "^10.0.0",
+    "marked": "^12.0.0",
+    "nanoid": "^5.0.6",
+    "postcss": "^8.4.35",
+    "svgo": "^3.2.0",
+    "terser": "^5.28.1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/jsdom": "^21.1.6",
+    "cssnano": "^6.0.4",
+    "ejs": "^3.1.9",
+    "htmlnano": "^2.1.0",
+    "jsdom": "^24.0.0",
+    "juice": "^10.0.0",
+    "marked": "^12.0.0",
+    "nanoid": "^5.0.6",
+    "nodemailer": "^6.9.10",
+    "postcss": "^8.4.35",
+    "svgo": "^3.2.0",
+    "terser": "^5.28.1",
+    "typescript": "^5.3.3"
+  }
+}
