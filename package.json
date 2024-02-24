@@ -1,10 +1,14 @@
 {
   "name": "markdown-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy button for creating HTML emails from Markdown",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joeskeen/markdown-email.git"
+  },
   "keywords": [
     "markdown",
     "email",
